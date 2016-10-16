@@ -135,7 +135,7 @@ class FacebookLogin extends React.Component {
             href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
           />
         )}
-        <button
+        <a
           className={`${cssClass} ${size}`}
           onClick={this.click}
         >
@@ -144,7 +144,7 @@ class FacebookLogin extends React.Component {
           )}
           {icon && !isIconString && icon}
           {textButton}
-        </button>
+        </a>
         <style dangerouslySetInnerHTML={{ __html: styles }}></style>
       </span>
     );
